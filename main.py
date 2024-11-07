@@ -72,7 +72,7 @@ popular_awarded_movie.write.csv("output/popular_awarded_movie.csv", header=True)
 genre_without_awards = df.filter(col("Awards") == "No").select("Subject").distinct()
 genre_without_awards.write.csv("output/genre_without_awards.csv", header=True)
 
-## Partie 1
+## Partie 2
 
 # Question 1
 # Classement des films par popularité pour chaque genre
